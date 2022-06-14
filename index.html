@@ -18,24 +18,26 @@
         </nav>
     </header>
     <main>
-        <section id="form-section">
-            <div>
+        <section id="form-section" class="form-container">
+            <div class="card-form">
                 <form name="newAddres">
-                    <div>
+                    <div class="form-control">
                         <label for="cep">CEP:</label>
-                        <input id="cep" name="cep" type="text" placeholder="CEP">
+                        <input id="cep" name="cep" class="form-input" type="text" placeholder="CEP">
+                        <div class="error-message">Campo requerido</div>
                     </div>
-                    <div>
+                    <div class="form-control">
                         <label for="street">Logradouro:</label>
-                        <input id="street" name="street" type="text" placeholder="Logradouro">
+                        <input id="street" name="street" class="form-input" type="text" placeholder="Logradouro" disabled>
                     </div>
-                    <div>
+                    <div class="form-control">
                         <label for="number">Número:</label>
-                        <input id="number" name="number" type="text" placeholder="Número">
+                        <input id="number" name="number" class="form-input" type="text" placeholder="Número">
+                        <div class="error-message">Campo requerido</div>
                     </div>
-                    <div>
+                    <div class="form-control">
                         <label for="city">Cidade:</label>
-                        <input id="city" name="city" type="text" placeholder="Cidade">
+                        <input id="city" name="city" class="form-input" type="text" placeholder="Cidade" disabled>
                     </div>
                     <div>
                         <button type="submit">Salvar</button>
