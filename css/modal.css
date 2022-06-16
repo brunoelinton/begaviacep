@@ -31,4 +31,9 @@
 .modal-content {
     color: #FFFFFF;
     margin-bottom: 40px;
+    text-align: center;
+}
+
+.modal-content p {
+    font-size: 0.95rem;
 }
